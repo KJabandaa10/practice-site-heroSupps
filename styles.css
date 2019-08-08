@@ -88,12 +88,62 @@
   text-transform: uppercase;
   font-size: 16px;
   margin: 5rem 0 0 6rem;
-  padding: 2em;
+  padding: 1.5em;
   background-color: #d83232;
+  border: none;
 }
 
 .container section.hero .hero-left button i {
   padding-left: 0.3em;
   color: white;
+}
+
+.container section.hero .hero-right {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.container section.hero .hero-right button {
+  padding: 0.8em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: #d83232;
+  border: none;
+}
+
+.container section.hero .hero-right button i {
+  padding-left: 0.3em;
+}
+
+.container section.hero .hero-right h2 {
+  font-size: 26px;
+  margin: 0.5em 3em;
+}
+
+.container section.hero .hero-right .free-shake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container section.hero .hero-right .free-shake h3 {
+  margin: 1em;
+  text-transform: capitalize;
+}
+
+.container section.hero .hero-right .free-shake button {
+  max-width: 200px;
+  margin: auto;
+}
+
+.container section.hero .hero-right .free-shake img {
+  margin: 1em auto 0 auto;
+  width: 400px;
+  height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
