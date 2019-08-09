@@ -83,6 +83,12 @@
   margin: 5rem 0 0 5rem;
 }
 
+@media screen and (max-width: 1394px) {
+  .container section.hero .hero-left h1 {
+    font-size: 60px;
+  }
+}
+
 .container section.hero .hero-left button {
   color: white;
   text-transform: uppercase;
@@ -145,5 +151,20 @@
   margin: 1em auto 0 auto;
   width: 400px;
   height: auto;
+}
+
+@media (max-width: 1394px) {
+  .container section.hero .hero-right .free-shake img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1394px) {
+  .container h1,
+  .container h2,
+  .container h3,
+  .container button {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,8 @@
+// Variables
+$mq-small: 475px;
+$mq-med: 1394px;
+$mq-large: 1600px;
+
 * {
   margin: 0;
   padding: 0;
@@ -58,6 +63,10 @@
         font-size: 80px;
         width: 40vw;
         margin: 5rem 0 0 5rem;
+
+        @media screen and (max-width: $mq-med) {
+          font-size: 60px;
+        }
       }
 
       button {
@@ -116,10 +125,22 @@
           margin: 1em auto 0 auto;
           width: 400px;
           height: auto;
+
+          @media (max-width: $mq-med) {
+            width: 350px;
+          }
         }
       }
     }
   }
 
+  h1,
+  h2,
+  h3,
+  button {
+    @media (max-width: $mq-med) {
+      font-size: 20px;
+    }
+  }
   // container end
 }
