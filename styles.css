@@ -10,6 +10,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container button:hover,
+.container a:hover {
+  cursor: pointer;
+}
+
 .container section.navbar {
   padding: 1.5rem 0;
   display: -webkit-box;
@@ -67,6 +72,7 @@
   display: grid;
   -ms-grid-columns: 7fr 3fr;
       grid-template-columns: 7fr 3fr;
+  margin-bottom: 5em;
 }
 
 .container section.hero .hero-left {
@@ -157,5 +163,72 @@
   .container section.hero .hero-right .free-shake img {
     width: 350px;
   }
+}
+
+.container .header {
+  background-color: whitesmoke;
+  padding-bottom: 2em;
+}
+
+.container .header p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 40vw 2em 40vw;
+  padding: 2em 0 0.25em 0;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+.container section.product-grid {
+  margin-top: 4em;
+  padding: 0 3em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: (1fr)[8];
+      grid-template: 1fr/repeat(8, 1fr);
+  grid-row-gap: 5em;
+  text-align: center;
+}
+
+.container section.product-grid .product {
+  grid-column: span 2;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.container section.product-grid .product p.p-name {
+  font-size: 22px;
+  max-width: 200px;
+}
+
+.container section.product-grid .product img {
+  width: 150px;
+  height: auto;
+  margin: 1em auto;
+}
+
+.container section.product-grid .product p.p-price {
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 200px;
+}
+
+.container section.product-grid .product .p-button {
+  padding: 0.6em;
+  margin: 1em 0;
+  border: 1px solid whitesmoke;
+  background-color: #0084ff;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 /*# sourceMappingURL=styles.css.map */
