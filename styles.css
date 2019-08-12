@@ -47,6 +47,23 @@
   padding: 0 1em;
 }
 
+.container section.navbar .nav-items ul li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: 500;
+}
+
+.container section.navbar #products-tab {
+  display: none;
+}
+
+.container section.navbar #products-tab ul {
+  list-style-type: none;
+}
+
 .container .info-ban {
   background-color: beige;
 }
