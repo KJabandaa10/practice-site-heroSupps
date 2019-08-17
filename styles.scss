@@ -48,13 +48,6 @@ $mq-large: 1600px;
         }
       }
     }
-    #products-tab {
-      display: none;
-
-      ul {
-        list-style-type: none;
-      }
-    }
   }
 
   .info-ban {
@@ -213,4 +206,13 @@ $mq-large: 1600px;
     }
   }
   // container end
+}
+
+// tabs
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
 }

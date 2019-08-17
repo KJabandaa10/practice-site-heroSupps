@@ -16,21 +16,50 @@
           <img src="img/" alt="HERO Supplements" />
         </div>
         <div class="nav-items">
-          <ul>
-            <li><a id="products" onclick="myFunction()" href="#">Products</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+          <ul id="nav-tab" class="nav" onclick="onTabClick()">
+            <li class="active"><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
         </div>
       </section>
-      <div id="products-tab">
-        <ul>
-          <li>Protein</li>
-          <li>Creatine</li>
-          <li>Steriods</li>
-        </ul>
+
+      <div class="tab-content">
+        <div id="tab-pane" id="products">
+          <ul>
+            <li>Protein</li>
+            <li>Creatine</li>
+            <li>Steriods</li>
+          </ul>
+        </div>
+        <div class="tab-pane" id="about">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+            aliquid ut maxime reiciendis dolorum dolorem pariatur fuga explicabo
+            quos esse! Sunt nesciunt accusamus eaque voluptate nobis ullam
+            ratione in consectetur.
+          </p>
+        </div>
+        <div class="tab-pane" id="contact">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+            aliquid ut maxime reiciendis dolorum dolorem pariatur fuga explicabo
+            quos esse! Sunt nesciunt accusamus eaque voluptate nobis ullam
+            ratione in consectetur. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Itaque aspernatur, perferendis assumenda quis
+            aliquam dignissimos.
+          </p>
+        </div>
+        <div class="tab-pane" id="faq">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+            aliquid ut maxime reiciendis dolorum dolorem pariatur fuga explicabo
+            quos esse! Sunt nesci
+          </p>
+        </div>
       </div>
+
       <section class="info-ban">
         <div class="info-banner">
           <p>Free UK Delivery over £50</p>

@@ -56,14 +56,6 @@
   font-weight: 500;
 }
 
-.container section.navbar #products-tab {
-  display: none;
-}
-
-.container section.navbar #products-tab ul {
-  list-style-type: none;
-}
-
 .container .info-ban {
   background-color: beige;
 }
@@ -247,5 +239,13 @@
   color: white;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
 }
 /*# sourceMappingURL=styles.css.map */

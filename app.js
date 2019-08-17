@@ -1,10 +1,17 @@
-const products = document.getElementById("products");
-const productsTab = document.getElementById("products-tab");
+function onTabClick(e) {
+  let activeTabs = document.querySelectorAll(".active");
 
-function myFunction() {
-  if (products.style.display === "none") {
-    products.style.display = "block";
-  } else {
-    products.style.display = "none";
-  }
-};
+  // deactivate existing tab and panel
+  activeTabs.forEach(function(tab) {
+    tab.className = tab.className.replace("active", "");
+  });
+
+  // activeate new tab and panel
+  event.target.parentElement.className += " active";
+  document.getElementById(event.target.href.split("#")[1]).className +=
+    " active";
+}
+
+const element = document.getElementById("nav-tab");
+
+// element.addEventListener("click", onTabClick);
